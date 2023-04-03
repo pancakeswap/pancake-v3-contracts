@@ -1,0 +1,56 @@
+{
+  "name": "@pancakeswap/v3-core",
+  "description": "🥞 Core smart contracts of PancakeSwap V3",
+  "license": "GPL-2.0-or-later",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.1",
+  "keywords": [
+    "pancakeswap",
+    "core",
+    "v3"
+  ],
+  "files": [
+    "contracts/interfaces",
+    "contracts/libraries",
+    "artifacts/contracts/PancakeV3Factory.sol/PancakeV3Factory.json",
+    "artifacts/contracts/PancakeV3Pool.sol/PancakeV3Pool.json",
+    "artifacts/contracts/interfaces/**/*.json",
+    "!artifacts/contracts/interfaces/**/*.dbg.json"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@pancakeswap/common": "*",
+    "@pancakeswap/v3-lm-pool": "*",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "decimal.js": "^10.2.1",
+    "ethereum-waffle": "^3.0.2",
+    "ethers": "^5.0.8",
+    "hardhat": "^2.2.0",
+    "hardhat-typechain": "^0.3.5",
+    "hardhat-watcher": "^2.1.1",
+    "mocha": "^6.2.2",
+    "mocha-chai-jest-snapshot": "^1.1.0",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59",
+    "solhint": "^3.2.1",
+    "solhint-plugin-prettier": "^0.0.5",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^8.5.4",
+    "typechain": "^8.1.1",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  }
+}

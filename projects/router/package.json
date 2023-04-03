@@ -1,0 +1,62 @@
+{
+  "name": "@pancakeswap/smart-router",
+  "description": "Pancake Smart Router",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "contracts/base",
+    "contracts/interfaces",
+    "contracts/libraries",
+    "artifacts/contracts/**/*.json",
+    "!artifacts/contracts/**/*.dbg.json",
+    "!artifacts/contracts/test/**/*",
+    "!artifacts/contracts/base/**/*"
+  ],
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat run --network testnet scripts/deploy.ts",
+    "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.ts",
+    "test": "echo 'skip'",
+    "test:coverage": "npx hardhat coverage",
+    "test:size-contracts": "npx hardhat size-contracts"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.5",
+    "@openzeppelin/contracts": "3.4.2-solc-0.7",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@pancakeswap/eslint-config-pancake": "^1.2.0",
+    "@pancakeswap/pancake-swap-lib": "0.0.4",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.35",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "ethers": "^5.0.23",
+    "hardhat": "^2.4.1",
+    "hardhat-abi-exporter": "2.0.6",
+    "hardhat-contract-sizer": "^2.0.2",
+    "hardhat-typechain": "^0.3.5",
+    "hardhat-watcher": "^2.1.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17",
+    "solidity-coverage": "^0.7.13",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "web3": "^1.3.6",
+    "hardhat-tracer": "^2.1.0",
+    "@uniswap/v2-core": "1.0.1",
+    "@pancakeswap/v3-core": "*",
+    "@pancakeswap/v3-periphery": "*"
+  },
+  "dependencies": {}
+}

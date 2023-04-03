@@ -1,0 +1,63 @@
+{
+  "name": "@pancakeswap/masterchef-v3",
+  "version": "1.0.0",
+  "description": "Pancake MasterChef V3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "PancakeSwap",
+  "license": "MIT",
+  "keywords": [
+    "pancakeswap",
+    "masterchef",
+    "v3"
+  ],
+  "files": [
+    "contracts",
+    "artifacts/contracts/**/*.json",
+    "!artifacts/contracts/**/*.dbg.json"
+  ],
+  "scripts": {
+    "format:check": "prettier --check './**/*.{js,ts,sol}'",
+    "format:write": "prettier --write './**/*.{js,ts,sol}'",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.5",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@pancakeswap/eslint-config-pancake": "^1.2.0",
+    "@pancakeswap/pancake-swap-lib": "0.0.4",
+    "@pancakeswap/v3-core": "*",
+    "@pancakeswap/v3-lm-pool": "*",
+    "@pancakeswap/v3-periphery": "*",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.35",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.0.23",
+    "hardhat": "^2.12.6",
+    "hardhat-abi-exporter": "2.0.6",
+    "hardhat-contract-sizer": "^2.0.2",
+    "hardhat-watcher": "^2.1.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17",
+    "solidity-coverage": "^0.7.13",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "web3": "^1.3.6"
+  }
+}

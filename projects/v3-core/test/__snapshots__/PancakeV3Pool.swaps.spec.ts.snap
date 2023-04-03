@@ -1,0 +1,3541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PancakeV3Pool swap tests close to max price swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "1000",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-26083555572690209315052476788170164100",
+  "executionPrice": "2.6084e+34",
+  "feeGrowthGlobal0X128Delta": "2552117751907038475966",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "4.1618e+30",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 705070,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "0",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "1000",
+  "executionPrice": "-Infinity",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.7014e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 880340,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-26087635650665564420689118549848374801",
+  "executionPrice": "2.6088e+19",
+  "feeGrowthGlobal0X128Delta": "289240011882807732273692584001675114",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "4.0201",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 13913,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-26087635650665564420689118549848374801",
+  "executionPrice": "2.6088e+19",
+  "feeGrowthGlobal0X128Delta": "289240011882807732273692584001675114",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "4.0201",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 13913,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "0",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "-Infinity",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882797693943868416317002979",
+  "poolPriceAfter": "1.7014e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 880340,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "poolBalance0": "1",
+  "poolBalance1": "26087635650665564424699143612505016738",
+  "poolPriceBefore": "1.7014e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "2",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-1000",
+  "executionPrice": "500.00",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.7014e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 880340,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "2",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "5.0000e+17",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.7014e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 880340,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "2",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "5.0000e+17",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.7014e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 880340,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "3170203168088600911",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-26087635650665564423434232548437664967",
+  "executionPrice": "8.2290e+18",
+  "feeGrowthGlobal0X128Delta": "916949602008840277991319952828331540",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": -9164,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "1268081267235440409",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "-26087635650665564421536865952336637368",
+  "executionPrice": "2.0573e+19",
+  "feeGrowthGlobal0X128Delta": "366779840803542032109712405460596857",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 9163,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "0",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "10790886013238012152867960993524497379",
+  "executionPrice": "-Infinity",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "3121155998694878068811323799744656678964839169540265669",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 887271,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "1",
+  "amount0Delta": "0",
+  "amount1Before": "26087635650665564424699143612505016738",
+  "amount1Delta": "10790886013238012152867960993524497379",
+  "executionPrice": "-Infinity",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "3121155998694878068811323799744656678964839169540265669",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.7014e+38",
+  "tickAfter": 887271,
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "poolBalance0": "1",
+  "poolBalance1": "26087635650665564424699143612505016738",
+  "poolPriceBefore": "1.7014e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "1",
+  "poolBalance1": "26087635650665564424699143612505016738",
+  "poolPriceBefore": "1.7014e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to max price swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "1",
+  "poolBalance1": "26087635650665564424699143612505016738",
+  "poolPriceBefore": "1.7014e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 880340,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "1000",
+  "amount1Before": "1",
+  "amount1Delta": "0",
+  "executionPrice": "0.0000",
+  "feeGrowthGlobal0X128Delta": "115696004753119077577547",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000059000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -880303,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-26033696443732900224230990682799108357",
+  "amount1Before": "1",
+  "amount1Delta": "1000",
+  "executionPrice": "0.000000000000000000000000000000000038412",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "2552117751907038475966",
+  "poolPriceAfter": "0.00000000000000000000000000000023962",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -705098,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "1",
+  "amount1Delta": "0",
+  "executionPrice": "0.0000",
+  "feeGrowthGlobal0X128Delta": "115696004753119077577547366526801191895",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000059000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -880303,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "poolBalance0": "26037782196502120275425782622539039026",
+  "poolBalance1": "1",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-26037782196502120271415757559882397088",
+  "amount1Before": "1",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "0.000000000000000000038406",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882807732273692584001675113",
+  "poolPriceAfter": "0.24875",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -13914,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-26037782196502120271415757559882397088",
+  "amount1Before": "1",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "0.000000000000000000038406",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882807732273692584001675113",
+  "poolPriceAfter": "0.24875",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -13914,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "10840864411451148338440683402407723726",
+  "amount1Before": "1",
+  "amount1Delta": "0",
+  "executionPrice": "0.0000",
+  "feeGrowthGlobal0X128Delta": "3135611751187928774160441049079900210349670624274842983",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -887272,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "10840864411451148338440683402407723726",
+  "amount1Before": "1",
+  "amount1Delta": "0",
+  "executionPrice": "0.0000",
+  "feeGrowthGlobal0X128Delta": "3135611751187928774160441049079900210349670624274842983",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -887272,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "poolBalance0": "26037782196502120275425782622539039026",
+  "poolBalance1": "1",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "26037782196502120275425782622539039026",
+  "poolBalance1": "1",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "26037782196502120275425782622539039026",
+  "poolBalance1": "1",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-1000",
+  "amount1Before": "1",
+  "amount1Delta": "2",
+  "executionPrice": "0.0020000",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000059000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -880303,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "1",
+  "amount1Delta": "2",
+  "executionPrice": "0.0000000000000000020000",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000059000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -880303,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "1",
+  "amount1Delta": "2",
+  "executionPrice": "0.0000000000000000020000",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000059000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -880303,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-26037782196502120272263504962370659657",
+  "amount1Before": "1",
+  "amount1Delta": "1268081267235440409",
+  "executionPrice": "0.000000000000000000048702",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "366779840803542202250895865929828588",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": -9164,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests close to min price swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "26037782196502120275425782622539039026",
+  "amount0Delta": "-26037782196502120274160871558471687256",
+  "amount1Before": "1",
+  "amount1Delta": "3170203168088600909",
+  "executionPrice": "0.00000000000000000012175",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "916949602008840107850136492359099807",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000059000",
+  "tickAfter": 9163,
+  "tickBefore": -880303,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-989",
+  "executionPrice": "0.98900",
+  "feeGrowthGlobal0X128Delta": "1190988284223284622121",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-989",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0111",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "1190988284223284622121",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-662207357859531772",
+  "executionPrice": "0.66221",
+  "feeGrowthGlobal0X128Delta": "1156960047531190775775473665268011918",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.44742",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -8043,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "836795075501202120",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-585786437626904951",
+  "executionPrice": "0.70004",
+  "feeGrowthGlobal0X128Delta": "968138470325737277994730392745614305",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-662207357859531772",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.5101",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "1156960047531190775775473665268011918",
+  "poolPriceAfter": "2.2350",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 8042,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-585786437626904951",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "836795075501202120",
+  "executionPrice": "1.4285",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "968138470325737277994730392745614305",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1012",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.98814",
+  "feeGrowthGlobal0X128Delta": "1361129467683753853853",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "2020202020202020203",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.49500",
+  "feeGrowthGlobal0X128Delta": "2337293025315537197452780506961097904",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.25000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -13864,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "836795075501202120",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-585786437626904951",
+  "executionPrice": "0.70004",
+  "feeGrowthGlobal0X128Delta": "968138470325737277994730392745614305",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1174017838553918518",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-735088935932648267",
+  "executionPrice": "0.62613",
+  "feeGrowthGlobal0X128Delta": "1358291734295807610399290416218351831",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "2000000000000000000",
+  "poolBalance1": "2000000000000000000",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-1000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1012",
+  "executionPrice": "1.0120",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "1361129467683753853853",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "2020202020202020203",
+  "executionPrice": "2.0202",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "2337293025315537197452780506961097904",
+  "poolPriceAfter": "4.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 13863,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-585786437626904951",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "836795075501202120",
+  "executionPrice": "1.4285",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "968138470325737277994730392745614305",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "2000000000000000000",
+  "poolBalance1": "2000000000000000000",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests high fee, 1:1 price, 2e18 max range liquidity swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-735088935932648267",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1174017838553918518",
+  "executionPrice": "1.5971",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "1358291734295807610399290416218351831",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1000",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-36847456030361971133775937791107285980",
+  "executionPrice": "3.6847e+34",
+  "feeGrowthGlobal0X128Delta": "2722258935367507707697",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "4.1788e+30",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 705111,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-36851544448870481543174909640889060927",
+  "executionPrice": "3.6852e+19",
+  "feeGrowthGlobal0X128Delta": "289240011882807902414876044470906845",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "4.0201",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 13913,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-36851544448870481543174909640889060927",
+  "executionPrice": "3.6852e+19",
+  "feeGrowthGlobal0X128Delta": "289240011882807902414876044470906845",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "4.0201",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 13913,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "2",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-1000",
+  "executionPrice": "500.00",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.3951e+38",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 887249,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "2",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "5.0000e+17",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.3951e+38",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 887249,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "2",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "5.0000e+17",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.3951e+38",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 887249,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "3170203168088600913",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-36851544448870481545920023639478351101",
+  "executionPrice": "1.1624e+19",
+  "feeGrowthGlobal0X128Delta": "916949602008840448132503413297563271",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": -9164,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1268081267235440411",
+  "amount1Before": "36851544448870481547184934703545702873",
+  "amount1Delta": "-36851544448870481544022657043377323502",
+  "executionPrice": "2.9061e+19",
+  "feeGrowthGlobal0X128Delta": "366779840803542202250895865929828588",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "3.4026e+38",
+  "tickAfter": 9163,
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the max ratio swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "36851544448870481547184934703545702873",
+  "poolPriceBefore": "3.4026e+38",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 887271,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-36847450330381418730249498720728641159",
+  "amount1Before": "0",
+  "amount1Delta": "1000",
+  "executionPrice": "0.000000000000000000000000000000000027139",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "2722258935367507707697",
+  "poolPriceAfter": "0.00000000000000000000000000000023864",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -705139,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-36851544446924640739010339253784101494",
+  "amount1Before": "0",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "0.000000000000000000027136",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882807902414876044470906844",
+  "poolPriceAfter": "0.24875",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -13914,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-36851544446924640739010339253784101494",
+  "amount1Before": "0",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "0.000000000000000000027136",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882807902414876044470906844",
+  "poolPriceAfter": "0.24875",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -13914,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "36851544446924640743020364316440743440",
+  "poolBalance1": "0",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-1000",
+  "amount1Before": "0",
+  "amount1Delta": "2",
+  "executionPrice": "0.0020000",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029454",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -887250,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "0",
+  "amount1Delta": "2",
+  "executionPrice": "0.0000000000000000020000",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029454",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -887250,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "0",
+  "amount1Delta": "2",
+  "executionPrice": "0.0000000000000000020000",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029454",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -887250,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-36851544446924640739858086656272364071",
+  "amount1Before": "0",
+  "amount1Delta": "1268081267235440411",
+  "executionPrice": "0.000000000000000000034411",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "366779840803542372392079326399060319",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": -9164,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests initialized at the min ratio swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "36851544446924640743020364316440743440",
+  "amount0Delta": "-36851544446924640741755453252373391670",
+  "amount1Before": "0",
+  "amount1Delta": "3170203168088600911",
+  "executionPrice": "0.000000000000000000086026",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "916949602008840277991319952828331538",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "0.0000000000000000000000000000000000000029390",
+  "tickAfter": 9163,
+  "tickBefore": -887272,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-998",
+  "executionPrice": "0.99800",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-998",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0020",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-666444407401233536",
+  "executionPrice": "0.66644",
+  "feeGrowthGlobal0X128Delta": "56146590541955527036190652103168680",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.44459",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -8107,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "828841545518949575",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-585786437626904950",
+  "executionPrice": "0.70675",
+  "feeGrowthGlobal0X128Delta": "46536626880413940784346179738131855",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-666444407401233536",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.5005",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "56146590541955356895007191633936948",
+  "poolPriceAfter": "2.2493",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 8106,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-585786437626904950",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "828841545518949574",
+  "executionPrice": "1.4149",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "46536626880413940784346179738131855",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1002",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.99800",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "2001000500250125077",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.49975",
+  "feeGrowthGlobal0X128Delta": "112349355761791563037919666662870455",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.25000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -13864,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "828841545518949575",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-585786437626904950",
+  "executionPrice": "0.70675",
+  "feeGrowthGlobal0X128Delta": "46536626880413940784346179738131855",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1162859089713235953",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-735088935932648266",
+  "executionPrice": "0.63214",
+  "feeGrowthGlobal0X128Delta": "65290573168120099680390694853684074",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "2000000000000000000",
+  "poolBalance1": "2000000000000000000",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-1000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1002",
+  "executionPrice": "1.0020",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "2001000500250125079",
+  "executionPrice": "2.0010",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "112349355761791733179103127132102186",
+  "poolPriceAfter": "4.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 13863,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-585786437626904950",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "828841545518949574",
+  "executionPrice": "1.4149",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "46536626880413940784346179738131855",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "2000000000000000000",
+  "poolBalance1": "2000000000000000000",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, 1:1 price, 2e18 max range liquidity swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-735088935932648266",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1162859089713235954",
+  "executionPrice": "1.5819",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "65290573168119929539207234384452341",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1000",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-998",
+  "executionPrice": "0.99800",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-998",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0020",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1000700370186095",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-999700069986002",
+  "executionPrice": "0.99900",
+  "feeGrowthGlobal0X128Delta": "56185913940291609945289586031516",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -887272,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1000700370186095",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-999700069986002",
+  "executionPrice": "0.99900",
+  "feeGrowthGlobal0X128Delta": "56185913940291609945289586031516",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-999700069986002",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1000700370186095",
+  "executionPrice": "1.0010",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "56185913940291609945289586031516",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 887271,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-999700069986002",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1000700370186095",
+  "executionPrice": "1.0010",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "56185913940291609945289586031516",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1002",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.99800",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1000700370186095",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-999700069986002",
+  "executionPrice": "0.99900",
+  "feeGrowthGlobal0X128Delta": "56185913940291609945289586031516",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -887272,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1000700370186095",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-999700069986002",
+  "executionPrice": "0.99900",
+  "feeGrowthGlobal0X128Delta": "56185913940291609945289586031516",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "1000700370186095",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "-999700069986002",
+  "executionPrice": "0.99900",
+  "feeGrowthGlobal0X128Delta": "56185913940291609945289586031516",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "999700069986003",
+  "poolBalance1": "999700069986003",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-1000",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1002",
+  "executionPrice": "1.0020",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-999700069986002",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1000700370186095",
+  "executionPrice": "1.0010",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "56185913940291609945289586031516",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 887271,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-999700069986002",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1000700370186095",
+  "executionPrice": "1.0010",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "56185913940291609945289586031516",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "999700069986003",
+  "poolBalance1": "999700069986003",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests low fee, large liquidity around current price (stable swap) swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "999700069986003",
+  "amount0Delta": "-999700069986002",
+  "amount1Before": "999700069986003",
+  "amount1Delta": "1000700370186095",
+  "executionPrice": "1.0010",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "56185913940291609945289586031516",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "1000",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "0",
+  "executionPrice": "0.0000",
+  "feeGrowthGlobal0X128Delta": "24133880",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "0",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "1000",
+  "executionPrice": "-Infinity",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "24133880",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "-997499999999916707",
+  "executionPrice": "0.99750",
+  "feeGrowthGlobal0X128Delta": "60334700002007690379",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "-997499999999916707",
+  "executionPrice": "0.99750",
+  "feeGrowthGlobal0X128Delta": "60334700002007690379",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "-997499999999916603",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.0025",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "60334700002010174749",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "-997499999999916603",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.0025",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "60334700002010174749",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "121320",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.0082427",
+  "feeGrowthGlobal0X128Delta": "7346637",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "1002506265664222743",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.99750",
+  "feeGrowthGlobal0X128Delta": "60485914786971191889",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "1002506265664222743",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.99750",
+  "feeGrowthGlobal0X128Delta": "60485914786971191889",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "5585836237227797734613739025097051",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "-3523961046695720664048729423877221",
+  "executionPrice": "0.63087",
+  "feeGrowthGlobal0X128Delta": "337019753622268007978599559957559011",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "9587849508916019933079002215745980",
+  "poolBalance1": "9587849508916019933079002215718504",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "-1000",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "121320",
+  "executionPrice": "121.32",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "7346637",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "1002506265664222639",
+  "executionPrice": "1.0025",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "60485914786971191889",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "1002506265664222639",
+  "executionPrice": "1.0025",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "60485914786971191889",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "9587849508916019933079002215745980",
+  "poolBalance1": "9587849508916019933079002215718504",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests max full range liquidity at 1:1 price with default fee swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "9587849508916019933079002215745980",
+  "amount0Delta": "-3523961046695720664048729423726856",
+  "amount1Before": "9587849508916019933079002215718504",
+  "amount1Delta": "5585836237227797734613739024720195",
+  "executionPrice": "1.5851",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "337019753622268007978599559934809280",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "1000",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-992",
+  "executionPrice": "0.99200",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.99501",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -51,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-992",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0081",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0050",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 50,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-662786011041514718",
+  "executionPrice": "0.66279",
+  "feeGrowthGlobal0X128Delta": "289240011882797693943868416317002979",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.44370",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -8127,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "825484832224219584",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-580792931780997577",
+  "executionPrice": "0.70358",
+  "feeGrowthGlobal0X128Delta": "238763242681602653539602536009641439",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-662786011041514718",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.5088",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882797693943868416317002979",
+  "poolPriceAfter": "2.2538",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 8126,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-580792931780997577",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "825484832224219584",
+  "executionPrice": "1.4213",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "238763242681602653539602536009641439",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "1009",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.99108",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.99501",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -51,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "2020118556127751712",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.49502",
+  "feeGrowthGlobal0X128Delta": "584299115179051210812778657502567014",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.24751",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -13964,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "825484832224219584",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-580792931780997577",
+  "executionPrice": "0.70358",
+  "feeGrowthGlobal0X128Delta": "238763242681602653539602536009641439",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "1160172085780299018",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "-730095430086740893",
+  "executionPrice": "0.62930",
+  "feeGrowthGlobal0X128Delta": "335568187877183987347013273639314161",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "1995006494154092626",
+  "poolBalance1": "1995006494154092626",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-1000",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "1009",
+  "executionPrice": "1.0090",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0050",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 50,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "2020118556127751714",
+  "executionPrice": "2.0201",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "584299115179051380953962117971798746",
+  "poolPriceAfter": "4.0402",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 13963,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-580792931780997577",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "825484832224219584",
+  "executionPrice": "1.4213",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "238763242681602653539602536009641439",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "1995006494154092626",
+  "poolBalance1": "1995006494154092626",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 0 liquidity, all liquidity around current price swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "1995006494154092626",
+  "amount0Delta": "-730095430086740893",
+  "amount1Before": "1995006494154092626",
+  "amount1Delta": "1160172085780299018",
+  "executionPrice": "1.5891",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "335568187877183987347013273639314161",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-996",
+  "executionPrice": "0.99600",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-996",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0040",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-665554628857381150",
+  "executionPrice": "0.66555",
+  "feeGrowthGlobal0X128Delta": "289240011882797693943868416317002979",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.44519",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -8094,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "830503383204200600",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-585786437626904951",
+  "executionPrice": "0.70534",
+  "feeGrowthGlobal0X128Delta": "240214808426686835033815541899924769",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-665554628857381150",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.5025",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882797693943868416317002979",
+  "poolPriceAfter": "2.2463",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 8093,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-585786437626904951",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "830503383204200600",
+  "executionPrice": "1.4178",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "240214808426686835033815541899924769",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1004",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.99602",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "2005012531328320805",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.49875",
+  "feeGrowthGlobal0X128Delta": "579929848386562070820269505614061915",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.25000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -13864,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "830503383204200600",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-585786437626904951",
+  "executionPrice": "0.70534",
+  "feeGrowthGlobal0X128Delta": "240214808426686835033815541899924769",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "1165190636760280033",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "-735088935932648267",
+  "executionPrice": "0.63087",
+  "feeGrowthGlobal0X128Delta": "337019753622268168841226279529597490",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "2000000000000000000",
+  "poolBalance1": "2000000000000000000",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-1000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1004",
+  "executionPrice": "1.0040",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "2005012531328320806",
+  "executionPrice": "2.0050",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "579929848386562070820269505614061915",
+  "poolPriceAfter": "4.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 13863,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-585786437626904951",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "830503383204200600",
+  "executionPrice": "1.4178",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "240214808426686835033815541899924769",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "2000000000000000000",
+  "poolBalance1": "2000000000000000000",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, 2e18 max range liquidity swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "2000000000000000000",
+  "amount0Delta": "-735088935932648267",
+  "amount1Before": "2000000000000000000",
+  "amount1Delta": "1165190636760280033",
+  "executionPrice": "1.5851",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "337019753622268168841226279529597490",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "1000",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-996",
+  "executionPrice": "0.99600",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-996",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0040",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-796609533654839122",
+  "executionPrice": "0.79661",
+  "feeGrowthGlobal0X128Delta": "145345788813941192930815901807490751",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.63936",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -4474,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-796609533654839122",
+  "executionPrice": "0.79661",
+  "feeGrowthGlobal0X128Delta": "145345788813941192930815901807490751",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.63936",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -4474,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-796609533654839122",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.2553",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "145345788813941192930815901807490751",
+  "poolPriceAfter": "1.5641",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 4473,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-796609533654839122",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.2553",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "145345788813941192930815901807490751",
+  "poolPriceAfter": "1.5641",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 4473,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "1004",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.99602",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "1340570900700822994",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.74595",
+  "feeGrowthGlobal0X128Delta": "194599154496761763419819600928769207",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.56063",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -5788,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "1340570900700822994",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.74595",
+  "feeGrowthGlobal0X128Delta": "194599154496761763419819600928769207",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.56063",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -5788,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "2325362722540579051",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "-1465184366019389159",
+  "executionPrice": "0.63009",
+  "feeGrowthGlobal0X128Delta": "337019753622268338982409739998829221",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "3995006494154092626",
+  "poolBalance1": "3995006494154092626",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-1000",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "1004",
+  "executionPrice": "1.0040",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "1340570900700822994",
+  "executionPrice": "1.3406",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "194599154496761763419819600928769207",
+  "poolPriceAfter": "1.7837",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 5787,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "1340570900700822994",
+  "executionPrice": "1.3406",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "194599154496761763419819600928769207",
+  "poolPriceAfter": "1.7837",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 5787,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "3995006494154092626",
+  "poolBalance1": "3995006494154092626",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:1 price, additional liquidity around current price swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "3995006494154092626",
+  "amount0Delta": "-1465184366019389159",
+  "amount1Before": "3995006494154092626",
+  "amount1Delta": "2325362722540579051",
+  "executionPrice": "1.5871",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "337019753622268338982409739998829221",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "1000",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "-99",
+  "executionPrice": "0.099000",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.10000",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -23028,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-9969",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "1000",
+  "executionPrice": "0.10031",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "0.10000",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -23028,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "-86160834028576591",
+  "executionPrice": "0.086161",
+  "feeGrowthGlobal0X128Delta": "289240011882798034226235337255466442",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.074609",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -25957,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "poolBalance0": "6324555320336758664",
+  "poolBalance1": "632455532033675867",
+  "poolPriceBefore": "0.10000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-3870500641305577839",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "0.25836",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882798034226235337255466442",
+  "poolPriceAfter": "0.66419",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -4093,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-3870500641305577839",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "0.25836",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882798034226235337255466442",
+  "poolPriceAfter": "0.66419",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -4093,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "10027",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.099731",
+  "feeGrowthGlobal0X128Delta": "3062541302288446171170",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.10000",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -23028,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "36943904207443248858842916286821037437",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "-632455532033675832",
+  "executionPrice": "0.000000000000000000017119",
+  "feeGrowthGlobal0X128Delta": "10685655291957825021421540431930137016419375493355610294",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -887272,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "poolBalance0": "6324555320336758664",
+  "poolBalance1": "632455532033675867",
+  "poolPriceBefore": "0.10000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "6324555320336758664",
+  "poolBalance1": "632455532033675867",
+  "poolPriceBefore": "0.10000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "6324555320336758664",
+  "poolBalance1": "632455532033675867",
+  "poolPriceBefore": "0.10000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-1000",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "102",
+  "executionPrice": "0.10200",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "170141183460469231731",
+  "poolPriceAfter": "0.10000",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -23028,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "119078607596778508",
+  "executionPrice": "0.11908",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "34442297876279310666697274059683115",
+  "poolPriceAfter": "0.14109",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -19585,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "119078607596778508",
+  "executionPrice": "0.11908",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "34442297876279310666697274059683115",
+  "poolPriceAfter": "0.14109",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -19585,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-3162277660168379331",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "634040633617720168",
+  "executionPrice": "0.20050",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "183389920401766252101719309591809959",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": -9164,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 1:10 price, 2e18 max range liquidity swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "6324555320336758664",
+  "amount0Delta": "-5059644256269406930",
+  "amount1Before": "632455532033675867",
+  "amount1Delta": "2536162534470880668",
+  "executionPrice": "0.50125",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "733559681607064157700959936021081178",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "0.10000",
+  "tickAfter": 9163,
+  "tickBefore": -23028,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "1000",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-9969",
+  "executionPrice": "9.9690",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "10.000",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 23027,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "-99",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "1000",
+  "executionPrice": "10.101",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "10.000",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 23027,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-3870500641305577838",
+  "executionPrice": "3.8705",
+  "feeGrowthGlobal0X128Delta": "289240011882797864085051876786234711",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.5056",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 4092,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-3870500641305577838",
+  "executionPrice": "3.8705",
+  "feeGrowthGlobal0X128Delta": "289240011882797864085051876786234711",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.5056",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 4092,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "-86160834028576591",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "11.606",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882798034226235337255466443",
+  "poolPriceAfter": "13.403",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 25956,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "poolBalance0": "632455532033675867",
+  "poolBalance1": "6324555320336758664",
+  "poolPriceBefore": "10.000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "102",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-1000",
+  "executionPrice": "9.8039",
+  "feeGrowthGlobal0X128Delta": "170141183460469231731",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "10.000",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 23027,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "119078607596778508",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "8.3978",
+  "feeGrowthGlobal0X128Delta": "34442297876279310666697274059683115",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "7.0877",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 19584,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "119078607596778508",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "8.3978",
+  "feeGrowthGlobal0X128Delta": "34442297876279310666697274059683115",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "7.0877",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 19584,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "2536162534470880671",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-5059644256269406930",
+  "executionPrice": "1.9950",
+  "feeGrowthGlobal0X128Delta": "733559681607064327842143396490312910",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "10.000",
+  "tickAfter": -9164,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "634040633617720169",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "-3162277660168379331",
+  "executionPrice": "4.9875",
+  "feeGrowthGlobal0X128Delta": "183389920401766081960535849122578227",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 9163,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "-1000",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "10027",
+  "executionPrice": "10.027",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "3062541302288446171170",
+  "poolPriceAfter": "10.000",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 23027,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "632455532033675867",
+  "amount0Delta": "-632455532033675831",
+  "amount1Before": "6324555320336758664",
+  "amount1Delta": "36943904209393966457002886599708214815",
+  "executionPrice": "5.8413e+19",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "10685655292522050602693312822180641628318238230768018613",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "10.000",
+  "tickAfter": 887271,
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "poolBalance0": "632455532033675867",
+  "poolBalance1": "6324555320336758664",
+  "poolPriceBefore": "10.000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "632455532033675867",
+  "poolBalance1": "6324555320336758664",
+  "poolPriceBefore": "10.000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, 10:1 price, 2e18 max range liquidity swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "632455532033675867",
+  "poolBalance1": "6324555320336758664",
+  "poolPriceBefore": "10.000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 23027,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -887272,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-996",
+  "amount1Before": "0",
+  "amount1Delta": "1000",
+  "executionPrice": "1.0040",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -887272,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-665554628857381150",
+  "amount1Before": "0",
+  "amount1Delta": "1000000000000000000",
+  "executionPrice": "1.5025",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "289240011882797693943868416317002979",
+  "poolPriceAfter": "2.2463",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 8093,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-585786437626904951",
+  "amount1Before": "0",
+  "amount1Delta": "830503383204200600",
+  "executionPrice": "1.4178",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "240214808426686835033815541899924769",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -887272,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.0000000000000000000000000000000000000029390",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -887272,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "0",
+  "amount1Before": "0",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "1986520736831810281",
+  "poolBalance1": "0",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-1000",
+  "amount1Before": "0",
+  "amount1Delta": "1004",
+  "executionPrice": "1.0040",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "510423550381407695195",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 0,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-1000000000000000000",
+  "amount1Before": "0",
+  "amount1Delta": "2005012531328320806",
+  "executionPrice": "2.0050",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "579929848386562070820269505614061915",
+  "poolPriceAfter": "4.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 13863,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-585786437626904951",
+  "amount1Before": "0",
+  "amount1Delta": "830503383204200600",
+  "executionPrice": "1.4178",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "240214808426686835033815541899924769",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "1986520736831810281",
+  "poolBalance1": "0",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token0 liquidity only swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "1986520736831810281",
+  "amount0Delta": "-735088935932648267",
+  "amount1Before": "0",
+  "amount1Delta": "1165190636760280033",
+  "executionPrice": "1.5851",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "337019753622268168841226279529597490",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap exactly 0.0000000000000010000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1000",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-996",
+  "executionPrice": "0.99600",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap exactly 0.0000000000000010000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 887271,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap exactly 1.0000 token0 for token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1000000000000000000",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-665554628857381150",
+  "executionPrice": "0.66555",
+  "feeGrowthGlobal0X128Delta": "289240011882797693943868416317002979",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.44519",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -8094,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap exactly 1.0000 token0 for token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "830503383204200600",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-585786437626904951",
+  "executionPrice": "0.70534",
+  "feeGrowthGlobal0X128Delta": "240214808426686835033815541899924769",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap exactly 1.0000 token1 for token0 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 887271,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap exactly 1.0000 token1 for token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token0 for exactly 0.0000000000000010000 token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1004",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-1000",
+  "executionPrice": "0.99602",
+  "feeGrowthGlobal0X128Delta": "510423550381407695195",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "1.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -1,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token0 for exactly 1.0000 token1 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "2005012531328320805",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-1000000000000000000",
+  "executionPrice": "0.49875",
+  "feeGrowthGlobal0X128Delta": "579929848386562070820269505614061915",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.25000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -13864,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token0 for exactly 1.0000 token1 to price 0.50000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "830503383204200600",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-585786437626904951",
+  "executionPrice": "0.70534",
+  "feeGrowthGlobal0X128Delta": "240214808426686835033815541899924769",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.50000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -6932,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token0 for token1 to price 0.40000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "1165190636760280033",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "-735088935932648267",
+  "executionPrice": "0.63087",
+  "feeGrowthGlobal0X128Delta": "337019753622268168841226279529597490",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "0.40000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": -9164,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token0 for token1 to price 2.5000 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "1986520736831810281",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token1 for exactly 0.0000000000000010000 token0 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 887271,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token1 for exactly 1.0000 token0 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "3.4026e+38",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 887271,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token1 for exactly 1.0000 token0 to price 2.0000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "2.0000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 6931,
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token1 for token0 to price 0.40000 1`] = `
+Object {
+  "poolBalance0": "0",
+  "poolBalance1": "1986520736831810281",
+  "poolPriceBefore": "1.0000",
+  "swapError": "VM Exception while processing transaction: reverted with reason string 'SPL'",
+  "tickBefore": 0,
+}
+`;
+
+exports[`PancakeV3Pool swap tests medium fee, token1 liquidity only swap token1 for token0 to price 2.5000 1`] = `
+Object {
+  "amount0Before": "0",
+  "amount0Delta": "0",
+  "amount1Before": "1986520736831810281",
+  "amount1Delta": "0",
+  "executionPrice": "NaN",
+  "feeGrowthGlobal0X128Delta": "0",
+  "feeGrowthGlobal1X128Delta": "0",
+  "poolPriceAfter": "2.5000",
+  "poolPriceBefore": "1.0000",
+  "tickAfter": 9163,
+  "tickBefore": 0,
+}
+`;

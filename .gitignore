@@ -1,0 +1,17 @@
+node_modules/
+**/artifacts/
+**/cache/
+**/typechain/
+**/typechain-types/
+**/data/abi
+**/abi
+**/coverage
+**/coverage.json
+**/.env
+.idea
+.vscode
+.DS_Store
+bytecode
+dist
+projects/masterchef-v3/abi/@openzeppelin/contracts/access/Ownable.sol/Ownable.json
+projects/router/test/debug.ts
