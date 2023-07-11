@@ -20,7 +20,6 @@ To get started with this custom fork of **PancakeSwap V3 Contracts**, you can fo
 
 1. Clone the repository to your local machine:
 2. `git clone https://github.com/Viken-Blockchain-Solutions/pancake-v3-contracts-custom.git`
-3. Further instructions related to installation, configuration, or deployment, if applicable.
 
 ### Deployments
 
