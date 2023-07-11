@@ -53,25 +53,25 @@ const DEFAULT_COMPILER_SETTINGS = {
 const bscTestnet: NetworkUserConfig = {
   url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
   chainId: 97,
-  accounts: [process.env.KEY_TESTNET!],
+  accounts: [process.env.PKEY_TESTNET!],
 }
 
 const bscMainnet: NetworkUserConfig = {
   url: 'https://bsc-dataseed.binance.org/',
   chainId: 56,
-  accounts: [process.env.KEY_MAINNET!],
+  accounts: [process.env.PKEY_MAINNET!],
 }
 
 const goerli: NetworkUserConfig = {
   url: 'https://rpc.ankr.com/eth_goerli',
   chainId: 5,
-  accounts: [process.env.KEY_GOERLI!],
+  accounts: [process.env.PKEY_GOERLI!],
 }
 
 const eth: NetworkUserConfig = {
   url: 'https://eth.llamarpc.com',
   chainId: 1,
-  accounts: [process.env.KEY_ETH!],
+  accounts: [process.env.PKEY_ETH!],
 }
 
 export default {
@@ -79,10 +79,10 @@ export default {
     hardhat: {
       allowUnlimitedContractSize: true,
     },
-    ...(process.env.KEY_TESTNET && { bscTestnet }),
-    ...(process.env.KEY_MAINNET && { bscMainnet }),
-    ...(process.env.KEY_GOERLI && { goerli }),
-    ...(process.env.KEY_ETH && { eth }),
+    ...(process.env.PKEY_TESTNET && { bscTestnet }),
+    ...(process.env.PKEY_MAINNET && { bscMainnet }),
+    ...(process.env.PKEY_GOERLI && { goerli }),
+    ...(process.env.PKEY_ETH && { eth }),
     // mainnet: bscMainnet,
   },
   etherscan: {
@@ -107,3 +107,4 @@ export default {
     pages: 'files',
   },
 }
+  
