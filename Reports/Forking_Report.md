@@ -10,33 +10,49 @@ The deployment process was carried out on the Hardhat network and involved the u
 
 ### Warnings Received
 
-- Here is a table of the warnings that were received:
+Here are the errors categorized into different tables based on their types:
 
-| Warning | Unmet Peer Dependency |
-|---------|----------------------|
-| @typechain/hardhat@6.1.5 | @ethersproject/abi@^5.4.7 |
-| @typechain/hardhat@6.1.5 | @ethersproject/providers@^5.4.7 |
-| @typechain/hardhat@6.1.5 | @typechain/ethers-v5@^10.2.0 |
-| @typechain/hardhat@6.1.5 | ethers@^5.4.7 |
-| @typechain/hardhat@6.1.5 | hardhat@^2.9.9 |
-| @typechain/hardhat@6.1.5 | typechain@^8.1.1 |
-| solidity-docgen@0.6.0-beta.35 | hardhat@^2.8.0 |
-| hardhat-typechain@0.3.5 | ts-generator@^0.1.1 |
-| hardhat-typechain@0.3.5 | typechain@^4.0.1 |
-| hardhat-tracer@2.1.2 | chalk@4.x |
-| @typechain/ethers-v5@10.2.0 | @ethersproject/abi@^5.0.0 |
-| @typechain/ethers-v5@10.2.0 | @ethersproject/bytes@^5.0.0 |
-| @typechain/ethers-v5@10.2.0 | @ethersproject/providers@^5.0.0 |
-| @typechain/ethers-v5@10.2.0 | incorrect peer dependency "typescript@>=4.3.0" |
-| typechain@8.1.1 | incorrect peer dependency "typescript@>=4.3.0" |
-| @nomiclabs/truffle-contract@4.5.10 | web3-core-helpers@^1.2.1 |
-| @nomiclabs/truffle-contract@4.5.10 | web3-core-promievent@^1.2.1 |
-| @nomiclabs/truffle-contract@4.5.10 | web3-eth-abi@^1.2.1 |
-| @nomiclabs/truffle-contract@4.5.10 | web3-utils@^1.2.1 |
-| chai-bn@0.2.2 | bn.js@^4.11.0 |
-| @morgan-stanley/ts-mocking-bird@0.6.4 | incorrect peer dependency "typescript@>=4.2" |
+**Dependency Errors:**
 
-- These warnings indicate that the specified packages have unmet peer dependencies or incorrect peer dependencies, which means they require specific versions of other packages to work correctly.
+| Package/File                       | Error                                                  |
+|------------------------------------|--------------------------------------------------------|
+| @typechain/hardhat@6.1.5           | Unmet peer dependency: @ethersproject/abi@^5.4.7       |
+| @typechain/hardhat@6.1.5           | Unmet peer dependency: @ethersproject/providers@^5.4.7 |
+| @typechain/hardhat@6.1.5           | Unmet peer dependency: @typechain/ethers-v5@^10.2.0    |
+| @typechain/hardhat@6.1.5           | Unmet peer dependency: ethers@^5.4.7                   |
+| @typechain/hardhat@6.1.5           | Unmet peer dependency: hardhat@^2.9.9                  |
+| @typechain/hardhat@6.1.5           | Unmet peer dependency: typechain@^8.1.1                |
+| solidity-docgen@0.6.0-beta.35      | Unmet peer dependency: hardhat@^2.8.0                  |
+| hardhat-typechain@0.3.5            | Unmet peer dependency: ts-generator@^0.1.1             |
+| hardhat-typechain@0.3.5            | Unmet peer dependency: typechain@^4.0.1                |
+| hardhat-tracer@2.1.2               | Unmet peer dependency: chalk@4.x                       |
+| @typechain/ethers-v5@10.2.0        | Unmet peer dependency: @ethersproject/abi@^5.0.0       |
+| @typechain/ethers-v5@10.2.0        | Unmet peer dependency: @ethersproject/bytes@^5.0.0     |
+| @typechain/ethers-v5@10.2.0        | Unmet peer dependency: @ethersproject/providers@^5.0.0  |
+| @typechain/ethers-v5@10.2.0        | Incorrect peer dependency: typescript@>=4.3.0          |
+| typechain@8.1.1                    | Incorrect peer dependency: typescript@>=4.3.0          |
+| @nomiclabs/truffle-contract@4.5.10 | Unmet peer dependency: web3-core-helpers@^1.2.1        |
+| @nomiclabs/truffle-contract@4.5.10 | Unmet peer dependency: web3-core-promievent@^1.2.1     |
+| @nomiclabs/truffle-contract@4.5.10 | Unmet peer dependency: web3-eth-abi@^1.2.1             |
+| @nomiclabs/truffle-contract@4.5.10 | Unmet peer dependency: web3-utils@^1.2.1                |
+| chai-bn@0.2.2                      | Unmet peer dependency: bn.js@^4.11.0                   |
+| @morgan-stanley/ts-mocking-bird@0.6.4 | Incorrect peer dependency: typescript@>=4.2          |
+
+**Contract Errors:**
+
+| Package/File                                  | Error                                                  |
+|-----------------------------------------------|--------------------------------------------------------|
+| **contracts/PancakeV3Pool.sol**                   | _Contract code size exceeds 24576 bytes_                |
+| **contracts/test/MockTimePancakeV3Pool.sol**       | _Contract code size exceeds 24576 bytes_                |
+| **contracts/test/MockTimePancakeV3PoolDeployer.sol** | _Contract code size exceeds 24576 bytes_                |
+| **@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol** | _SPDX license identifier not provided in source file_ |
+| **contracts/NonfungibleTokenPositionDescriptorOffChain.sol** | _Unused function parameter_            |
+| **contracts/NonfungibleTokenPositionDescriptorOffChainV2.sol** | _Unused function parameter_          |
+| **contracts/test/OracleTest.sol**                 | _Function state mutability can be restricted to pure_   |
+| **contracts/keeper/MasterChefV3KeeperV1.sol**      | _Unnamed return variable can remain unassigned_         |
+| **contracts/keeper/MasterChefV3KeeperV2.sol**      | _Unnamed return variable can remain unassigned_         |
+
+Please note that some warnings/errors may fall under multiple categories, but this categorization provides a general overview of the different types of issues encountered.
 
 1. The `NETWORK=hardhat yarn zx v3-deploy.mjs` command was then executed to deploy the contracts on the Hardhat network. This resulted in the successful compilation and deployment of several contracts, with warnings about contract code size exceeding 24576 bytes and missing SPDX license identifiers.
 
@@ -74,21 +90,21 @@ The following table provides a brief description of each of the deployed contrac
 
 | Contract Name | Description |
 | --- | --- |
-| **MasterChefV3** | Manages yield farming, allowing users to stake tokens in return for rewards. |
-| **SmartRouter** | Routes trades to the best possible path, considering factors like liquidity and slippage. |
-| **SmartRouterHelper** | Assists the SmartRouter by providing additional functionality or data. |
-| **MixedRouteQuoterV1** | Quotes prices for trades that involve multiple routes. |
-| **QuoterV2** | Provides prices for trades on the exchange. |
-| **TokenValidator** | Validates tokens, checking if a token meets certain criteria before it can be used in the system. |
-| **PancakeV3Factory** | Creates new PancakeSwap pairs. |
-| **PancakeV3PoolDeployer** | Deploys new PancakeSwap pools. |
-| **SwapRouter** | Executes trades on PancakeSwap. |
+| **MasterChefV3** | _Manages yield farming, allowing users to stake tokens in return for rewards._ |
+| **SmartRouter** | _Routes trades to the best possible path, considering factors like liquidity and slippage._ |
+| **SmartRouterHelper** | _Assists the SmartRouter by providing additional functionality or data._ |
+| **MixedRouteQuoterV1** | _Quotes prices for trades that involve multiple routes._ |
+| **QuoterV2** | _Provides prices for trades on the exchange._ |
+| **TokenValidator** | _Validates tokens, checking if a token meets certain criteria before it can be used in the system._ |
+| **PancakeV3Factory** | _Creates new PancakeSwap pairs._ |
+| **PancakeV3PoolDeployer** | _Deploys new PancakeSwap pools._ |
+| **SwapRouter** | _Executes trades on PancakeSwap._ |
 | **V3Migrator** | Migrates liquidity from V2 to V3. |
-| **TickLens** | Provides a view function to return information about multiple ticks from a pool. |
-| **NonfungibleTokenPositionDescriptor** | Generates a URI for a given token position. |
-| **NonfungiblePositionManager** | Simplifies the complexity associated with managing positions in PancakeSwap V3. |
-| **PancakeInterfaceMulticall** | Makes multiple calls to the PancakeSwap interface in a single transaction. |
-| **PancakeV3LmPoolDeployer** | Deploys new liquidity mining pools for PancakeSwap V3. |
+| **TickLens** | _Provides a view function to return information about multiple ticks from a pool._ |
+| **NonfungibleTokenPositionDescriptor** | _Generates a URI for a given token position._ |
+| **NonfungiblePositionManager** | _Simplifies the complexity associated with managing positions in PancakeSwap V3._ |
+| **PancakeInterfaceMulticall** | _Makes multiple calls to the PancakeSwap interface in a single transaction._ |
+| **PancakeV3LmPoolDeployer** | _Deploys new liquidity mining pools for PancakeSwap V3._ |
 
 - Please note that these descriptions are simplified and the actual functionality of the contracts can be more complex.  
 - For a full understanding, it's recommended to read the contract code or the official documentation.
