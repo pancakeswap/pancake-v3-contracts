@@ -7,7 +7,6 @@ import { PancakeV3PoolDeployer } from '../../typechain-types/contracts/PancakeV3
 import { TestPancakeV3Callee } from '../../typechain-types/contracts/test/TestPancakeV3Callee'
 import { TestPancakeV3Router } from '../../typechain-types/contracts/test/TestPancakeV3Router'
 import { MockTimePancakeV3PoolDeployer } from '../../typechain-types/contracts/test/MockTimePancakeV3PoolDeployer'
-import PancakeV3LmPoolArtifact from '@pancakeswap/v3-lm-pool/artifacts/contracts/PancakeV3LmPool.sol/PancakeV3LmPool.json'
 
 import { Fixture } from 'ethereum-waffle'
 
@@ -79,8 +78,6 @@ export const poolFixture: Fixture<PoolFixture> = async function (): Promise<Pool
   const swapTargetCallee = (await calleeContractFactory.deploy()) as TestPancakeV3Callee
   const swapTargetRouter = (await routerContractFactory.deploy()) as TestPancakeV3Router
 
-  const PancakeV3LmPoolFactory = await ethers.getContractFactoryFromArtifact(PancakeV3LmPoolArtifact)
-
   return {
     token0,
     token1,
@@ -103,19 +100,6 @@ export const poolFixture: Fixture<PoolFixture> = async function (): Promise<Pool
       const poolAddress = receipt.events?.[0].args?.pool as string
 
       const mockTimePancakeV3Pool = MockTimePancakeV3PoolFactory.attach(poolAddress) as MockTimePancakeV3Pool
-
-      await (
-        await factory.setLmPool(
-          poolAddress,
-          (
-            await PancakeV3LmPoolFactory.deploy(
-              poolAddress,
-              ethers.constants.AddressZero,
-              Math.floor(Date.now() / 1000)
-            )
-          ).address
-        )
-      ).wait()
 
       return mockTimePancakeV3Pool
     },
