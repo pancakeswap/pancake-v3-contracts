@@ -14,4 +14,3 @@ node_modules/
 bytecode
 dist
 projects/masterchef-v3/abi/@openzeppelin/contracts/access/Ownable.sol/Ownable.json
-projects/router/test/debug.ts

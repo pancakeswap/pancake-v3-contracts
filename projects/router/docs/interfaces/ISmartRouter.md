@@ -1,4 +1,0 @@
-# Solidity API
-
-## ISmartRouter
-
